@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set a veriable name to Dane
+// We check if our variable name is equal to Mary, if its true we console.log "Hi, Mary"
+// Otherwise we console.log "How do you do?"
+// Since name is not equal to Mary, we console.log "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We creat variables secret and code. We set equal to 123.
+// we check if code is equal to 123, since it is, we set secret equal to 'super'
+// and we double code, which is 246. We check if code is greater than 250, since its not we dont set secret to 'duper'
+// we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set the variables age to '34', isStudent to 'true', and zip to '55407'
+// We check if isStudent is true and if zip is greater than 80000.
+// we check if isStudent is false or age is less than 30.
+// we check if isStudent is true. 
+// if all the above statements are false, we would console.log "how about the weahter?"
+// we console.log "Welcome to Prime!" since that is the only true conditional
 
 //CODE
 /*
@@ -130,12 +132,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX colorOne should be set to blue 
+// and colorTwo should be set to red
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX -set colorTwo to purple as well
+  // colorTwo = 'purple';
 }
 */
 
@@ -147,6 +156,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX we should use an 'and' instead of  'or' in conditional
+// if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +171,13 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX we need to check if age is greater or equal to minAge
+// would fix the conditional with 
+// if(age >= minAge) {
+//   console.log('enter');
+// } else {
+//   console.log('no entry');
+}
 if(minAge <= age) {
   console.log('no entry');
 } else {
